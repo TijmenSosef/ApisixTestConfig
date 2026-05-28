@@ -47,6 +47,9 @@ services:
   - id: veiligheidenvergunningen-api-svc
     name: Veiligheid en Vergunningen API
     upstream_id: veiligheidenvergunningen-prod
+  - id: test
+    name: test
+    upstream_id: veiligheidenvergunningen-prod
 plugin_configs:
   - id: rate-limit-plugins
     plugins:
